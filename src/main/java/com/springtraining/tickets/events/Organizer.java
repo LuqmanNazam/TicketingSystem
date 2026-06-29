@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 // equals(), hashCode() and toString() - so we don't write any boilerplate.
 @Entity
 @Table(name = "organizers")
-public class Organizer{
+public class Organizer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
